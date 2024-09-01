@@ -1,8 +1,8 @@
 # Use the official OpenJDK 17 image as the base image
-FROM openjdk:17-jdk-alpine
+FROM openjdk:17-jdk-slim
 
 # Set the working directory inside the container
-WORKDIR /springbootprojects
+WORKDIR /thinkhumble-project
 
 # Copy the trigger file and project files into the container
 COPY thinkhumble-project /springbootprojects/thinkhumble-project
