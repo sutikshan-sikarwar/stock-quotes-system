@@ -2,7 +2,7 @@
 FROM openjdk:17-jdk-slim
 
 # Set the working directory inside the container
-WORKDIR /thinkhumble-project
+WORKDIR /springbootprojects
 
 # Copy the trigger file and project files into the container
 COPY thinkhumble-project /springbootprojects/thinkhumble-project
